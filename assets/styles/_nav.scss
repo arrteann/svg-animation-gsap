@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  user-select: none;
+
+  .logo {
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+
+  .navigation {
+    ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin: {
+          right: 1rem;
+        }
+        cursor: pointer;
+      }
+    }
+  }
+}

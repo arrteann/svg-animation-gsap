@@ -1,0 +1,80 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif; }
+
+body {
+  background-color: #1c073e;
+  color: white;
+  overflow: hidden;
+  line-height: 1; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  user-select: none; }
+  .header .logo {
+    font-weight: bolder;
+    font-size: 2.5rem; }
+  .header .navigation ul {
+    list-style: none; }
+    .header .navigation ul li {
+      display: inline-block;
+      margin-right: 1rem;
+      cursor: pointer; }
+
+.hero {
+  height: 100vh; }
+  .hero .hero-content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 1;
+    max-width: 23.12rem; }
+  .hero .hero-title {
+    font-size: 2.6rem;
+    line-height: 3.6rexm;
+    margin-bottom: 2rem; }
+    .hero .hero-title span {
+      color: #ffd500; }
+  .hero .hero-details {
+    margin-bottom: 2rem;
+    font-size: 0.9rem; }
+
+.btn {
+  display: inline-block;
+  width: 10rem;
+  padding: 1rem 0.2rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: white;
+  border-radius: 0.3rem; }
+  .btn:first-child {
+    margin-right: 1.4rem; }
+
+.btn-primary {
+  background: white;
+  color: #1c073e; }
+
+.btn-border {
+  border: 1px solid white; }
+
+.illustration {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  align-items: flex-end; }
+  .illustration svg {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto; }
